@@ -19,7 +19,7 @@ else if (b == 0)
 {
 	printf("Last digit of %d is %d and is 0\n", a, b);
 }
-else
+else if (b < 6 && b != 0)
 {
 	printf("Last digit of %d is %d and is less than 6 and not 0\n", a, b);
 }
