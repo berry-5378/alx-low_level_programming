@@ -1,7 +1,6 @@
 #include"main.h"
 /**
- * main - writes the character c to stdout
- * @c: The character to print
+ * main - code starting and end
  * Return: On success 1.
  */
 int main(void)
