@@ -16,7 +16,6 @@ if (n <= 98)
 			if (i != 98)
 				printf(", ");
 		}
-	printf("\n");
 	}
 	else if (n > 98)
 	{
@@ -28,5 +27,5 @@ if (n <= 98)
 			printf(", ");
 	}
 	}
-printf("\n");
+	printf("\n");
 }
