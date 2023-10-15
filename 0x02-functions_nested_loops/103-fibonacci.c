@@ -19,7 +19,7 @@ if (n2 % 2 == 0)
 n1 = n2;
 n2 = next;
 }
-printf("%d", s);
+printf("%d", s - 2);
 printf("\n");
 return (0);
 }
