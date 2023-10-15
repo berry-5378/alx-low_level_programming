@@ -1,4 +1,7 @@
 #include<stdio.h>
+#include <stdint.h>
+#include <inttypes.h>
+#include <stdlib.h>
 /**
  * main - check the code
  *
@@ -6,14 +9,15 @@
  */
 int main(void)
 {
-	unsigned long int t1 = 1, t2 = 2, s;
+uint64_t t1 = 1, t2 = 2, s;
 	int i;
 
-	printf("%lu, %lu, ", t1, t2);
+	printf("%"PRIu64 ", ", t1);
+	printf("%"PRIu64 ", ", t2);
 	for (i = 3 ; i <= 98 ; i++)
 	{
 		s = t1 + t2;
-		printf("%lu", s);
+		printf("%"PRIu64 "", s);
 		if (i != 98)
 		{
 			printf(", ");
