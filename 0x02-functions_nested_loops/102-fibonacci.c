@@ -6,13 +6,14 @@
  */
 int main(void)
 {
-	int t1 = 1, t2 = 2, s, i;
+	unsigned long int t1 = 1, t2 = 2, s;
+	int i;
 
-	printf("%d, %d, ", t1, t2);
+	printf("%lu, %lu, ", t1, t2);
 	for (i = 3 ; i <= 50 ; i++)
 	{
 		s = (t1 + t2);
-		printf("%d", s);
+		printf("%lu", s);
 		if (i != 50)
 		{
 			printf(", ");
