@@ -1,4 +1,5 @@
 #include"main.h"
+#include<stdio.h>
 /**
  * times_table - Prototype
  * Return: Returns 1,0,-1
@@ -13,32 +14,15 @@ for (i = 0 ; i <= 9 ; i++)
 		k = i * j;
 		if (j == 0)
 		{
-		_putchar(k + '0');
-		_putchar(',');
-		_putchar(' ');
+			printf("%d, ", k);
 		}
 		else
 		{
-			if (k >= 10)
-	{
-			_putchar(k / 10  + '0');
-			_putchar(k % 10 + '0');
-	if (j != 9 && k >= 10)
-	{
-		_putchar(',');
+			printf("%2d", k);
+			if (j != 9)
+				printf(", ");
 		}
 	}
-			else
-			{
-				_putchar(k + '0');
-					if (j != 9 && k <= 10)
-					{
-					_putchar(',');
-				_putchar(' ');
-					}
-			}
-		}
-}
-_putchar('\n');
+printf("\n");
 }
 }
