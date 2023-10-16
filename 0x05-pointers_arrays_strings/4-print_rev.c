@@ -12,7 +12,14 @@ void print_rev(char *s)
 	{
 		i++;
 	}
+	if (s[i] == '')
+	{
+		i = i - 2;
+	}
+	else
+	{
 	i = i - 1;
+	}
 	while (i >= 0)
 	{
 		_putchar(s[i]);
